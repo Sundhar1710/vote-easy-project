@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etPhone" type="id" />
+    <item name="btnSubmit" type="id" />
+    <item name="etFullName" type="id" />
+    <item name="etDob" type="id" />
+    <item name="etAddress" type="id" />
+    <item name="rgGender" type="id" />
+    <item name="rbMale" type="id" />
+    <item name="rbFemale" type="id" />
+    <item name="rbOther" type="id" />
+    <item name="drawer_layout" type="id" />
+    <item name="nav_track_application" type="id" />
+    <item name="nav_vote" type="id" />
+    <item name="nav_modify_voter_id" type="id" />
+    <item name="nav_new_application" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="emailLayout" type="id" />
+</resources>

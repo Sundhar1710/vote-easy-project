@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your Voter ID"
+                android:textSize="20sp"
+                android:textColor="#212121"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp" />
+            <EditText
+                android:id="@+id/voterIdInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ABC12345"
+                android:inputType="text"
+                android:padding="12dp"
+                android:backgroundTint="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="#212121"
+                android:textSize="16sp"
+                android:drawableLeft="@drawable/voteicon" />
+            <Button
+                android:id="@+id/submitVoterIdButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+
